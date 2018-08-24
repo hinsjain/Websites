@@ -1,0 +1,110 @@
+ @media (max-width:991px) {
+.flexy-menu > li .indicator {
+	position: absolute;
+	color: #FFF;
+	top: 20px;
+	right: 8px;
+	font-size: 17px;
+	background: transparent url("../images/menudrop.png") no-repeat scroll right center;
+	text-indent: -9999px;
+	width: 10px;
+	height: 8px;
+}
+}
+@media (min-width:992px) {
+.side{width: 27%;}
+.main{width: 73%;}
+.flexy-menu > li .indicator {
+	position: absolute;
+	color: #333;
+	top: 9px;
+	right: 8px;
+	font-size: 17px;
+	display: none;
+}
+.quality-logo {
+    margin: -45px 0px;
+}
+.main-container{margin-left: -15px;
+margin-right: -15px;}
+}
+@media (min-width:1200px) {
+.flexy-menu {float:right;
+    width:98%;}
+	.container {
+    width: 1000px;
+}
+}
+@media (min-width:992px) and (max-width:1199px) {
+.flexy-menu {float:right;
+    width: 97%;}	
+.flexy-menu > li > a {
+    padding: 10px 14px;}
+}
+@media (min-width:768px) and (max-width:991px) {
+.flexy-menu {width: 92%;
+float: right;}
+.quality-logo img{width: 100%;
+margin-top: -47px;}	 
+}
+@media (min-width:768px){
+
+.copyright{float:left;}
+.powered{float:right;}
+}
+@media (max-width:767px){
+.flexy-menu {
+	margin: 10px 0 0 0 !important;
+}
+body, html{background:none !important;}
+.stock-img{width:100%;}
+.products-img{clear:both;}
+.copyright{text-align:center;}
+.powered{text-align:center;}
+#product-slide {
+    margin-top: 0px;
+    padding: 0px 20px;
+}
+.quality-logo {margin:0 auto;text-align:center;margin:15px;}
+.hed-right-part {
+    width: 100%;
+}
+.header{background:#fff;} 
+.logo {
+    width: 100%;
+	text-align: center;
+    margin: 0px auto;
+} 
+.plr.hed-2,.plr.hed-2 ul{ 
+text-align: center;
+margin: 0px auto;
+float: none;
+left: 0px;
+right: 0px;}
+.plr.hed-2 ul li{float:none;display:inline-block;}
+.product-slider{margin:15px 0;}
+	}
+	@media screen and (max-width: 480px) {
+	.tabs {
+		display: none;
+	}
+	.tab_drawer_heading {
+		background-color: #ccc;
+		color: #fff;
+		border-top: 1px solid #333;
+		margin: 0;
+		padding: 5px 20px;
+		display: block;
+		cursor: pointer;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.d_active {
+		background-color: #666;
+		color: #fff;
+	}
+}
